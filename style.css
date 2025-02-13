@@ -1,0 +1,46 @@
+body {
+    background-image: url('34b9c02cd0c8309d33ca4b02144caa2f.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    font-size: 2rem;
+    color: #5e0c0c;
+}
+
+button {
+    background: #b22222;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #8b0000;
+    transform: scale(1.1);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
